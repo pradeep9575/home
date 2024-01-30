@@ -1,0 +1,770 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f6f1f1;
+}
+
+nav {
+    height: 20vh;
+    width:100%;
+
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(221, 185, 138);
+    /* justify-content: space-between;  */
+    /* display: flex;
+    justify-content: right; */
+
+}
+
+nav ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+    bottom: 1vw;
+    font-size: 2vw;
+
+
+}
+
+h2 {
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+h2:hover {
+    transform: scale(1.1);
+    color: rgb(182, 11, 22);
+    margin-left: 10px;
+}
+
+ul li {
+    cursor: pointer;
+    margin: auto;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    transform: scale(1.5);
+    color: white;
+    padding: 0.5%;
+}
+
+ul :first-child {
+    color: rgb(232, 10, 10);
+}
+
+ul :last-child {
+    background-color: rgb(218, 21, 34);
+    border-radius: 10px;
+}
+
+ul :last-child:hover {
+
+    /* background-color: white; */
+    /* color: black; */
+}
+
+
+#Pages1 {
+    height: 100vh;
+    width: auto;
+    /* border: 1px solid black; */
+    background: url("https://wallpapercave.com/wp/wp2521508.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    /* padding: 15px; */
+    justify-content: center;
+
+}
+
+#box {
+    height: auto;
+    width: 70vh;
+    padding: 5px;
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2vw;
+    margin: auto;
+    color: rgb(14, 208, 169);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#box :hover {
+    transform: scale(1.05);
+}
+
+button {
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(199, 48, 89);
+    font-size: 2vh;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#Page2 {
+    height: auto;
+    /* border: 1px solid black; */
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.box1 {
+    height: 45vh;
+    /* width:45vh; */
+    cursor: pointer;
+    /* border: 1px solid black; */
+    background: url("https://www.explosion.com/wp-content/uploads/2019/05/hike-3379001_1280.jpg");
+    background-size: cover;
+}
+
+#dabba1:hover {
+
+    transform: scale(1.03);
+}
+
+#dabba2:hover {
+
+    transform: scale(1.03);
+}
+
+.box2 {
+    height: 45vh;
+    /* width: 45vh; */
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    background: url("https://thumbs.dreamstime.com/b/walking-mountains-tourists-going-mountain-track-backpacks-against-green-grass-47414670.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#dabba1 {
+    height: auto;
+    width: 40%;
+    transition: 0.9s;
+    font-size: 2vw;
+    /* border: 1px solid black; */
+
+}
+
+#dabba2 {
+    height: auto;
+    width: 40%;
+    font-size: 2vw;
+}
+
+#img2 {
+    height: 80vh;
+    width: 100%;
+    /* margin-top: 25px; */
+    margin-top: 3vw;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#img2:hover {
+    transform: scale(1.01);
+}
+
+@media(max-width:800px) {
+
+    
+
+    nav {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul{
+
+        font-size: 5vw;
+        width: 90%;
+        gap: 3vh;
+    }
+
+    #Page2 {
+        flex-direction: column;
+        width: 100%;
+        /* border: 1px solid black; */
+
+    }
+   
+    
+
+    #Page3 {
+        width: auto;
+    }
+
+    
+
+    #Cardbox {
+        flex-direction: column;
+        height: auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    #Cardbox2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #page1 {
+        height: auto;
+        width: 80vh;
+    }
+
+    #Cardbox3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #footer {
+        flex-direction: column;
+        height: auto;
+    }
+    #dabba1{
+        width: 70%;
+        height: auto;
+        font-size: 25px;
+        word-wrap: break-word;
+    }
+    
+    #dabba2{
+        width: 70%;
+        height: auto;
+        font-size: 25px;
+
+    }
+    #box1{
+        height: auto;
+    }
+    #Page4 {
+        flex-direction: column;
+        width: 100%;
+    }
+   #Page4 #textbox1{
+        width: 80%;
+        font-size:4.5vw;
+        margin-top: 5vh;
+        /* border: 1px solid black; */
+    }
+    #Page4 #imgbox1{
+        width: 80%;
+        margin-top: 5vh;
+        
+    }
+    #Cardbox #Card1{
+        width: 80%;
+    }
+    #Cardbox #Card2{
+        width: 80%;
+    }
+    #Cardbox #Card3{
+        width: 80%;
+    }
+    #Cardbox2{
+        width: 100%;
+    }
+    #Cardbox2 #photo1{
+
+        width: 80%;
+        
+    }
+    #Cardbox2 #photo3{
+
+        width: 80%;
+        
+    }
+    #Cardbox2 #photo4{
+
+        width: 80%;
+        
+    }
+    #Cardbox3{
+        width: 80%;
+        height: auto;
+    }
+    #Cardbox3 #imgtitle{
+        width: 100%;
+        font-size: 3vw;
+    }
+   #Cardbox3 input{
+        width: 70%;
+        height: 20%;
+        font-size: 4vw;
+    }
+    #Cardbox3 #button{
+        font-size: 3vw;
+        margin-top: 2vh;
+        margin-bottom: 3vw;
+    }
+    #footer{
+        margin-top:25px;
+        width: 80%;
+
+    }
+    #footer #text1{
+        width: 80%;
+        font-size: 5vw;
+        margin-top: 5%;
+        border-bottom: 2px solid rgb(15, 234, 15);
+    }
+    #footer #text2{
+        width: 80%;
+        font-size: 5vw;
+        margin-top: 5%;
+        border-bottom: 2px solid rgb(15, 234, 15);
+
+    }
+    #footer #text3{
+        width: 80%;
+        font-size: 5vw;
+        margin-top: 5%;
+        border-bottom: 2px solid rgb(15, 234, 15);
+        
+    }
+    #footer #text4{
+        
+        margin-top: 7%;
+        width: 80%;
+    }
+    #text4 #text{
+
+        font-size: 7vw;
+        margin-bottom: 10%;
+
+        
+
+    }
+     img{
+        height: 8vw;
+        width: 8vw;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    button{
+        font-size: 3vw;
+    }
+
+
+}
+    @media(min-width:800px){
+
+#footer #text4 img{
+
+            margin-top:20%;
+        }
+
+        #Cardbox2{
+        height: auto;
+        /* border: 1px solid black; */
+        flex-direction: column;
+        }
+        #Cardbox2 #photo1{
+            width: 80%;
+            height: 30%;
+        }
+        #Cardbox2 #photo3{
+            width: 80%;
+            height: 30%;
+            
+
+        }
+        #Cardbox2 #photo4{
+            width: 80%;
+            height: 30%;
+        }
+        button{
+            font-size: 1vw;
+        }
+         
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Page4 {
+    height:90%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 6vh;
+}
+
+#textbox1 {
+    height: 60%;
+    width: 50%;
+    /* border: 1px solid black; */
+    font-size: 2vw;
+    word-wrap: break-word;
+    padding-top: 5vh;
+    transition: 0.9s;
+    background-color: rgb(141, 120, 185);
+    color: white;
+    cursor: pointer;
+}
+
+#textbox1:hover {
+    transform: scale(1.1);
+}
+
+#imgbox1 {
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    /* padding-top: 5px; */
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#imgbox1:hover {
+
+    transform: scale(1.01);
+}
+
+#img3 {
+
+    height: 49%;
+    width: 49%;
+    /* border: 1px solid bl; */
+}
+
+#img4 {
+
+    height: 49%;
+    width: 49%;
+}
+
+#img5 {
+
+    height: 49%;
+    width: 49%;
+}
+
+#img6 {
+
+    height: 40%;
+    width: 49%;
+}
+
+#Cardbox {
+
+    height: 50vw;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    gap: 20px;
+    /* flex-direction: column; */
+}
+
+#Card1 {
+    height: 100%;
+
+    width: 31%;
+    /* border: 1px solid black; */
+    background: url("https://wallpaperaccess.com/full/938058.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+#Card2 {
+    height: 100%;
+    width: 31%;
+    /* border: 1px solid black; */
+    background: url("https://i.pinimg.com/originals/71/9f/ef/719fef46d0b2b2707d153b711b4176c6.jpg");
+    transition: 0.6s;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#Card3 {
+    height: 100%;
+    cursor: pointer;
+    transition: 0.6s;
+    width: 31%;
+    background: url("https://wallpapercave.com/wp/wp2777171.jpg");
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+h3 {
+    font-size: 5vh;
+}
+
+#Card1:hover {
+    transform: scale(0.9);
+    filter: brightness(100%) hue-rotate(45deg);
+
+
+}
+
+#Card2:hover {
+    transform: scale(0.9);
+    filter: brightness(100%) hue-rotate(45deg);
+
+
+}
+
+#Card3:hover {
+    transform: scale(0.9);
+    filter: brightness(100%) hue-rotate(45deg);
+
+
+}
+
+#Cardbox2 {
+
+    height:100vw;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    color: white;
+    gap: 20px;
+    /* flex-direction: column; */
+}
+
+
+
+#photo1 {
+    height: 40%;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 17px;
+    transition: 0.6s;
+    width: 31%;
+    background: url("https://th.bing.com/th/id/OIP.s-y7yqfR9q09MgfDLQ00PwHaEo?w=275&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7");
+    background-size: cover;
+    transition: 0.6s;
+
+}
+
+#photo1:hover {
+    transform: scale(1.1);
+    filter: brightness(100%) hue-rotate(45deg);
+}
+
+#photo3:hover {
+    transform: scale(1.1);
+    filter: brightness(100%) hue-rotate(45deg);
+
+
+}
+
+#photo4:hover {
+    transform: scale(1.1);
+    filter: brightness(100%) hue-rotate(45deg);
+
+
+}
+
+#photo3 {
+    height:70%;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 17px;
+
+    transition: 0.6s;
+    width: 31%;
+    background: url("https://th.bing.com/th/id/R.6c8d5488ef173ac2b4e27860b1d1e2cb?rik=Z1PWZ6v0nW5Qag&riu=http%3a%2f%2fmedia.cntraveler.com%2fphotos%2f57212200afc531496352e35e%2fmaster%2fpass%2fgolden-gate-bridge-GettyImages-166267310.jpg&ehk=Wwmnq1LY6HE7nb%2f6ElFEtu%2biyHkBQedlLREuaP3NKAQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+#photo4 {
+    height: 40%;
+    width: 60%;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 17px;
+
+    background: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/wallpaper-2812735.jpg");
+    background-size: cover;
+}
+
+#Cardbox3 {
+
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: space-between;
+
+}
+
+#imgtitle {
+
+    height: auto;
+    width: 70%;
+    word-wrap: break-word;
+    border-radius: 13px;
+    margin: 2vh;
+    font-size: 2vw;
+    background-color: white;
+}
+
+input {
+    outline: none;
+    font-size: 2vw;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 0px 5px 1px;
+    color: rgb(73, 72, 72);
+}
+
+#button {
+
+    background-color: rgb(150, 150, 237);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 1px;
+    color: rgb(73, 72, 72);
+    padding: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+#footer {
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d39a7;
+    margin-top: 5%;
+    color: white;
+    gap: 3%;
+    margin: auto;
+}
+
+#text1 {
+    height: 80%;
+    width: 20%;
+    /* border: 1px solid black; */
+    padding-bottom: 3vh;
+    transition: 0.5s;
+    font-size: 2vw;
+    margin-top: 4%;
+}
+
+#text2 {
+    height: auto;
+    width: 20%;
+    font-size: 2vw;
+    /* border: 1px solid black; */
+}
+
+#text3 {
+    height: 80%;
+    width: 20%;
+    font-size: 2vw;
+
+    /* border: 1px solid black; */
+}
+
+#text4 {
+    height: auto;
+    width: 35vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+#text1:hover {
+
+    transform: scale(1.1);
+
+}
+
+#text2:hover {
+
+    transform: scale(1.1);
+
+}
+
+#text3:hover {
+
+    transform: scale(1.1);
+
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    margin-top: 3vh;
+    border-radius: 10px;
+}
+
+
+img:hover {
+
+    transform: scale(1.1);
+    font-size: 2vw;
+
+}
+
+#text {
+    height: 8vh;
+    width: 100vh;
+    font-size: 4vw;
+}
